@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+}
+header{
+    padding-top: 65px;
+    padding-bottom: 59px;
+}
+.header-container{
+    max-width: 940px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.logo-block,
+.social-block{
+    width: 470px;
+    display: inline-block;
+}
+.social-block{
+    text-align: right;
+}
+.social-block a{
+    display: inline-block;
+    margin-left: 21px;
+}
+.text-container{
+    max-width: 810px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-element{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+.text-content{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.form-section{
+    padding-top: 102px;
+    background: rgb(250, 201, 96);
+}
+.form-section h1{
+    color: rgb(138, 109, 47);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 54px;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.form-section input{
+    display: inline-block;
+
+}
+.form-section form{
+    padding-bottom: 117px;
+
+}
+.input-email,
+.iput-submit{
+    border: none;
+    font-size: 30px;
+}
+.input-email{
+    padding: 0 36px;
+    width: 560px;
+    height: 54px;
+    border-radius: 2px 0px 0px 2px;
+    background: rgb(255, 255, 255);
+    color: rgb(246, 132, 10);
+}
+.input-email::placeholder{
+    color: rgb(0, 0, 0);
+}
+.iput-submit{
+    border-radius: 0px 2px 2px 0px;
+    background: rgb(168, 134, 61);
+    width: 240px;
+    height: 54px;
+    text-align: center;
+    color: white;
+}
+.space{
+    padding-top: 71px;
+    padding-bottom: 81px;
+    background: rgb(242, 242, 242);
+}
+.space-image-block{
+    padding-top: 26px;
+}
+.mobile{
+    padding-top: 88px;
+    padding-bottom: 21px;
+}
+.share{
+    padding-top: 54px;
+    padding-bottom: 107px;
+    background: rgb(250, 201, 96);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.share button{
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(117, 134, 150);
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    padding: 0 23px;
+}
+footer{
+    padding: 81px 0;
+    background: rgb(242, 242, 242);
+}
+.link-block{
+    padding-top: 24px;
+    text-align: center;
+}
+.link-block a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 22px;
+}
+.link-block a:last-child{
+    margin-right: 0;
+}
