@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d5d8;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu-header .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+}
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+.categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.category {
+    text-align: center;
+    flex: 1;
+    cursor: pointer;
+}
+.category img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.category p {
+    font-size: 14px;
+    color: #777;
+    font-weight: bold;
+}
+.category.active p {
+    color: #333;
+}
+.section-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu-item .item-info {
+    flex: 1;
+    margin-left: 15px;
+}
+.menu-item .item-info h3 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+.menu-item .item-info p {
+    font-size: 14px;
+    color: #777;
+}
+.menu-item .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5722;
+}
